@@ -1,0 +1,9 @@
+<?php
+
+function dd($var){
+	return print_r($var); exit();	
+}
+
+function dump($var){
+	return var_dump($var); exit();
+}
